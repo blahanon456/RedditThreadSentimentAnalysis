@@ -1,2 +1,2 @@
 # RedditThreadSentimentAnalysis
-Analyze sentiment of a reddit thread on mentioned stock symbols and then visualize in a swarm plot. 
+Paste a URL of a reddit thread that contains stock symbol mentions to fetch sentiment and mention data to then visualize on a swarm plot. It returns also an average sentiment and weighted sentiment based on number of mentions, from what I've seen this manages to collect somewhere around 95% of the comments that contain mentions that meet criteria and then filters it further to return and use only useful data (comments that are not all caps, tickers with only above 10 mentions, and mentions that contain a sentiment position that's not 0).
